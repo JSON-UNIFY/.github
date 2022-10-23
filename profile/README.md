@@ -4,7 +4,6 @@ A simple specification for open-source data contracts to unify agreement, unders
 ### Simply, a data contract is a declarative agreement between a sender and receiver of information in a communication event (API payload for example).
 ### A data contract has a functional purpose of reducing ambiguity and errors, and increasing trust and efficiency.
 ### The JSON-UNIFY specification has three requirements: @metadata, @data, and @semantics
-### The fourth section @compute is optional
 
 ## WHY THERE IS A NEED FOR AN OPEN-SOURCE DATA CONTRACT SPECIFICATION
 - JSON-schema manages structure of data 
