@@ -1,4 +1,4 @@
-# JSON-UNIFY
+# JSON-Unify
 A simple specification for open-source data contracts to unify agreement, understanding, and expectations
 
 ### Simply, a data contract is a declarative agreement between a sender and receiver of information in a communication event (API payload for example).
