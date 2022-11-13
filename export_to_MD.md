@@ -3,9 +3,26 @@
 To create a new data product using the JSON-Unify data contract specification:
 - Copy the JSON code in from below in the cell named 'JSON'
 - In your Python Notebook:
-```import pyunify as uf```
-```unify = uf.JsonUnify(paste_json)```
+```
+import pyunify as uf
+unify = uf.JsonUnify(paste_json)
+```
 
+### concepts
+```
+|    | COLUMN NAME        | TYPE   | DESCRIPTION                                                   |
+|---:|:-------------------|:-------|:--------------------------------------------------------------|
+|  0 | ID                 |        | The unique ID of the super human                              |
+|  1 | First name         |        | The first name of the super human                             |
+|  2 | Last name          |        | The last name of the super human                              |
+|  3 | Birth year         |        | the year someone was born                                     |
+|  4 | Height             |        | height in feet in inches                                      |
+|  5 | Birthplace         | str    | where the super human was born                                |
+|  6 | Identity is secret |        | the superhuman hasn't told anyone at all about their identity |
+|  7 | Can fly            |        | whether the superhuman can fly                                |
+|  8 | Alignment          | str    | the morals a super human aligns to                            |
+|  9 | Wears cape         |        | whether the super human wears a cape                          |
+```
 ### data
 ```
 |    |   ID | First name   | Last name   | Birth year   | Height   | Birthplace      | Identity is secret   | Can fly   | Alignment    | Wears cape   |
