@@ -8,7 +8,8 @@ import pyunify as uf
 unify = uf.JsonUnify(paste_json)
 ```
 
-### concepts
+## concepts
+
 ```
 |    | COLUMN NAME        | TYPE   | DESCRIPTION                                                   |
 |---:|:-------------------|:-------|:--------------------------------------------------------------|
@@ -23,7 +24,8 @@ unify = uf.JsonUnify(paste_json)
 |  8 | Alignment          | str    | the morals a super human aligns to                            |
 |  9 | Wears cape         |        | whether the super human wears a cape                          |
 ```
-### data
+## data
+
 ```
 |    |   ID | First name   | Last name   | Birth year   | Height   | Birthplace      | Identity is secret   | Can fly   | Alignment    | Wears cape   |
 |---:|-----:|:-------------|:------------|:-------------|:---------|:----------------|:---------------------|:----------|:-------------|:-------------|
@@ -44,7 +46,8 @@ unify = uf.JsonUnify(paste_json)
 | 15 | 1883 | Raven        | Darkholme   | ..1911..     | 5'10"    | unknown         | Y                    | no        | mostly bad   | Not really   |
 | 16 | 5830 | Kara         | Zor-el      | 1961         | 5'7"     | Krypton         | Y                    | fast      | G            | yes          |
 ```
-### meta
+## meta
+
 ```
 |    | Key         | Value                                                             |
 |---:|:------------|:------------------------------------------------------------------|
@@ -57,7 +60,8 @@ unify = uf.JsonUnify(paste_json)
 |  6 | contact     |                                                                   |
 |  7 | name        | SuperHuman Dataset                                                |
 ```
-### json
+## json
+
 ```
 {
     "meta": {
