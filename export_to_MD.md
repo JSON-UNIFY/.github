@@ -1,6 +1,4 @@
-# JSON-Unify Object As Markdown
-
-### data
+# JSON-Unify Markdown Export: SuperHuman Dataset### data
 ```
 |    |   ID | First name   | Last name   | Birth year   | Height   | Birthplace      | Identity is secret   | Can fly   | Alignment    | Wears cape   |
 |---:|-----:|:-------------|:------------|:-------------|:---------|:----------------|:---------------------|:----------|:-------------|:-------------|
@@ -32,6 +30,7 @@
 |  4 | authors     |                                                                   |
 |  5 | id          |                                                                   |
 |  6 | contact     |                                                                   |
+|  7 | name        | SuperHuman Dataset                                                |
 ```
 ### json
 ```
@@ -43,7 +42,8 @@
         "tags": null,
         "authors": null,
         "id": null,
-        "contact": null
+        "contact": null,
+        "name": "SuperHuman Dataset"
     },
     "data": [
         [
