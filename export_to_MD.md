@@ -1,12 +1,12 @@
 # JSON-Unify Object As Markdown
 
-# #CONCEPTS
-```None
-## CUSTOM
+## concepts
 ```None```
-## COMPUTE
+## compute
 ```None```
-## DATA
+## custom
+```None```
+## data
 ```|    |   ID | First name   | Last name   | Birth year   | Height   | Birthplace      | Identity is secret   | Can fly   | Alignment    | Wears cape   |
 |---:|-----:|:-------------|:------------|:-------------|:---------|:----------------|:---------------------|:----------|:-------------|:-------------|
 |  1 | 7435 | Bruce        | Wayne       | 1969*        | 6'2"     | Gotham          | Y                    | 3         | anti-villain | black        |
@@ -24,7 +24,8 @@
 | 13 | 7452 | Thor         | Odinson     | 2287 BC      | 6'6"     | Norway          |                      | 10        | Good         | Of course    |
 | 14 | 1437 | Selina       | Kyle        | 1998         | 5'7"     | Gotham          | Y                    | NA        | Neutral      | It clashes   |
 | 15 | 1883 | Raven        | Darkholme   | ..1911..     | 5'10"    | unknown         | Y                    | no        | mostly bad   | Not really   |
-| 16 | 5830 | Kara         | Zor-el      | 1961         | 5'7"     | Krypton         | Y                    | fast      | G            | yes          |```## META
+| 16 | 5830 | Kara         | Zor-el      | 1961         | 5'7"     | Krypton         | Y                    | fast      | G            | yes          |```
+## meta
 ```|    | Key         | Value                                                             |
 |---:|:------------|:------------------------------------------------------------------|
 |  0 | contract    | https://github.com/JSON-UNIFY/table                               |
@@ -33,7 +34,8 @@
 |  3 | tags        |                                                                   |
 |  4 | authors     |                                                                   |
 |  5 | id          |                                                                   |
-|  6 | contact     |                                                                   |```## JSON EXPORT
+|  6 | contact     |                                                                   |```
+## json
 ```{
     "meta": {
         "contract": "https://github.com/JSON-UNIFY/table",
@@ -325,4 +327,3 @@
     ],
     "custom": {}
 }```
-### To import this JSON-Unify object from JSON, run unify=JsonUnify(this_json_export) and it will recreate the entire object
