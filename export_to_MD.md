@@ -1,17 +1,5 @@
 # JSON-Unify Object As Markdown
 
-## concepts
-```
-None
-```
-## compute
-```
-None
-```
-## custom
-```
-None
-```
 ## data
 ```
 |    |   ID | First name   | Last name   | Birth year   | Height   | Birthplace      | Identity is secret   | Can fly   | Alignment    | Wears cape   |
