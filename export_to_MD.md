@@ -1,4 +1,16 @@
-# JSON-Unify Markdown Export: SuperHuman Dataset### data
+# JSON-Unify Markdown Export: SuperHuman Dataset
+
+To create a new data product using the JSON-Unify data contract specification:
+    1. Copy the JSON code in from below in the cell named "JSON"
+    2. In your code:
+      ```
+      import pyunify as uf
+      unify = uf.JsonUnify(paste_json)
+      ```
+    
+
+
+    ### data
 ```
 |    |   ID | First name   | Last name   | Birth year   | Height   | Birthplace      | Identity is secret   | Can fly   | Alignment    | Wears cape   |
 |---:|-----:|:-------------|:------------|:-------------|:---------|:----------------|:---------------------|:----------|:-------------|:-------------|
