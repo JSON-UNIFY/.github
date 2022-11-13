@@ -12,7 +12,7 @@ This markdown file was automatically generated with ```unify.md()```
 
 The goal of JSON-Unify is to get **metadata** and **concepts**, included **with the data** itself (in a file or API payload), to improve the user experience of those who create, consume, and share data.
 
-**By creating clean & rich data with JSON-Unify, you are helping the next person who needs to use it by saving them time and increasing their understanding of the data.**
+<em>By creating clean & rich data with JSON-Unify, you are helping the next person who needs to use it by saving them time and increasing their understanding of the data.</em>
 
 ## concepts
 
