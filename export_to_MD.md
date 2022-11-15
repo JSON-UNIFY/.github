@@ -1,30 +1,3 @@
-LINEAGE
-LISTENER	EVENT	DESCRIPTION	TIMESTAMP
-1	data	init	data initialized	11/15/2022, 16:49:01
-2	concepts	init	concepts initialized	11/15/2022, 16:49:01
-3	meta	init	meta initialized	11/15/2022, 16:49:01
-4	governance	init	governance initialized	11/15/2022, 16:49:01
- 
-GOVERNANCE - ROLES
-ROLE	RESPONSIBILITIES
-1	Data Owner	[Definitions of concepts, Management of data quality standards, Owns of data processes, Approves business rules and definitions]
-2	Data Steward	[Definitions of concepts, Management of data quality standards, Owns of data processes, Approves business rules and definitions]
-3	Data Lead	[]
-4	Data Custodian	[]
-5	Business Analyst	[Documents data and business requirements for team review]
-6	Data Architect	[Manages data models bridging business and technology teams]
- 
-GOVERNANCE - SLA
-NAME	TYPE	DESCRIPTION	REQUIREMENTS
-1	support_agreement_name_example	SUPPORT REQUIREMENT	Description of a support agreement for this data the producer will give the consumer	None
-2	customer_requirement_agreement_name_example	CUSTOMER REQUIREMENT	Description of a customer requirement agreement for this data the producer will give the consumer	None
-3	service_assumptions_agreement_name_example	SERVICE ASSUMPTION	Description of a customer requirement agreement for this data the producer will give the consumer	None
- 
-GOVERNANCE - COMPLIANCE
-NAME	TYPE	DESCRIPTION	REQUIREMENTS
-1	legal_requirement_name_example	CATEGORY_OF_REQUIREMENT	Description of a legal requirement	None
-2	Delete request	GDPR	Upon request, a user can have all of their data deleted	Email confirmation upon completeion
- 
 # JSON-Unify Markdown Export: SuperHuman Dataset
 
 To create a new data product using the JSON-Unify data contract specification:
@@ -113,10 +86,10 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
 ```
 |    | LISTENER   | EVENT   | DESCRIPTION            | TIMESTAMP            |
 |---:|:-----------|:--------|:-----------------------|:---------------------|
-|  1 | data       | init    | data initialized       | 11/15/2022, 16:49:01 |
-|  2 | concepts   | init    | concepts initialized   | 11/15/2022, 16:49:01 |
-|  3 | meta       | init    | meta initialized       | 11/15/2022, 16:49:01 |
-|  4 | governance | init    | governance initialized | 11/15/2022, 16:49:01 |
+|  1 | data       | init    | data initialized       | 11/15/2022, 16:53:25 |
+|  2 | concepts   | init    | concepts initialized   | 11/15/2022, 16:53:25 |
+|  3 | meta       | init    | meta initialized       | 11/15/2022, 16:53:25 |
+|  4 | governance | init    | governance initialized | 11/15/2022, 16:53:25 |
 ```
 ## meta
 
@@ -529,25 +502,25 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
             "data",
             "init",
             "data initialized",
-            "11/15/2022, 16:49:01"
+            "11/15/2022, 16:53:25"
         ],
         [
             "concepts",
             "init",
             "concepts initialized",
-            "11/15/2022, 16:49:01"
+            "11/15/2022, 16:53:25"
         ],
         [
             "meta",
             "init",
             "meta initialized",
-            "11/15/2022, 16:49:01"
+            "11/15/2022, 16:53:25"
         ],
         [
             "governance",
             "init",
             "governance initialized",
-            "11/15/2022, 16:49:01"
+            "11/15/2022, 16:53:25"
         ]
     ],
     "custom": {}
