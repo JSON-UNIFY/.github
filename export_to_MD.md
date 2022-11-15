@@ -1,3 +1,10 @@
+LINEAGE
+LISTENER	EVENT	DESCRIPTION	TIMESTAMP
+1	data	init	data initialized	11/15/2022, 16:41:27
+2	concepts	init	concepts initialized	11/15/2022, 16:41:27
+3	meta	init	meta initialized	11/15/2022, 16:41:27
+4	governance	init	governance initialized	11/15/2022, 16:41:27
+ 
 # JSON-Unify Markdown Export: SuperHuman Dataset
 
 To create a new data product using the JSON-Unify data contract specification:
@@ -25,7 +32,7 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
 |  3 | Birth year         |        | the year someone was born                                     |
 |  4 | Height             |        | height in feet in inches                                      |
 |  5 | Birthplace         | str    | where the super human was born                                |
-|  6 | Identity is secret |        | the superhuman hasn't told anyone at all about their identity |
+|  6 | Identity is secret | bool   | the superhuman hasn't told anyone at all about their identity |
 |  7 | Can fly            |        | whether the superhuman can fly                                |
 |  8 | Alignment          | str    | the morals a super human aligns to                            |
 |  9 | Wears cape         |        | whether the super human wears a cape                          |
@@ -51,6 +58,16 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
 | 14 | 1437 | Selina       | Kyle        | 1998         | 5'7"     | Gotham          | Y                    | NA        | Neutral      | It clashes   |
 | 15 | 1883 | Raven        | Darkholme   | ..1911..     | 5'10"    | unknown         | Y                    | no        | mostly bad   | Not really   |
 | 16 | 5830 | Kara         | Zor-el      | 1961         | 5'7"     | Krypton         | Y                    | fast      | G            | yes          |
+```
+## lineage
+
+```
+|    | LISTENER   | EVENT   | DESCRIPTION            | TIMESTAMP            |
+|---:|:-----------|:--------|:-----------------------|:---------------------|
+|  1 | data       | init    | data initialized       | 11/15/2022, 16:41:27 |
+|  2 | concepts   | init    | concepts initialized   | 11/15/2022, 16:41:27 |
+|  3 | meta       | init    | meta initialized       | 11/15/2022, 16:41:27 |
+|  4 | governance | init    | governance initialized | 11/15/2022, 16:41:27 |
 ```
 ## meta
 
@@ -308,7 +325,8 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
                 "description": "where the super human was born"
             },
             "Identity is secret": {
-                "description": "the superhuman hasn't told anyone at all about their identity"
+                "description": "the superhuman hasn't told anyone at all about their identity",
+                "type": "bool"
             },
             "Can fly": {
                 "description": "whether the superhuman can fly"
@@ -357,6 +375,130 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
             null,
             null,
             "The date his object was last modified"
+        ]
+    ],
+    "governance": {
+        "compliance": [
+            [
+                "NAME",
+                "TYPE",
+                "DESCRIPTION",
+                "REQUIREMENTS"
+            ],
+            [
+                "legal_requirement_name_example",
+                "CATEGORY_OF_REQUIREMENT",
+                "Description of a legal requirement",
+                null
+            ],
+            [
+                "Delete request",
+                "GDPR",
+                "Upon request, a user can have all of their data deleted",
+                "Email confirmation upon completeion"
+            ]
+        ],
+        "sla": [
+            [
+                "NAME",
+                "TYPE",
+                "DESCRIPTION",
+                "REQUIREMENTS"
+            ],
+            [
+                "support_agreement_name_example",
+                "SUPPORT REQUIREMENT",
+                "Description of a support agreement for this data the producer will give the consumer",
+                null
+            ],
+            [
+                "customer_requirement_agreement_name_example",
+                "CUSTOMER REQUIREMENT",
+                "Description of a customer requirement agreement for this data the producer will give the consumer",
+                null
+            ],
+            [
+                "service_assumptions_agreement_name_example",
+                "SERVICE ASSUMPTION",
+                "Description of a customer requirement agreement for this data the producer will give the consumer",
+                null
+            ]
+        ],
+        "roles": [
+            [
+                "ROLE",
+                "RESPONSIBILITIES"
+            ],
+            [
+                "Data Owner",
+                [
+                    "Definitions of concepts",
+                    "Management of data quality standards",
+                    "Owns of data processes",
+                    "Approves business rules and definitions"
+                ]
+            ],
+            [
+                "Data Steward",
+                [
+                    "Definitions of concepts",
+                    "Management of data quality standards",
+                    "Owns of data processes",
+                    "Approves business rules and definitions"
+                ]
+            ],
+            [
+                "Data Lead",
+                []
+            ],
+            [
+                "Data Custodian",
+                []
+            ],
+            [
+                "Business Analyst",
+                [
+                    "Documents data and business requirements for team review"
+                ]
+            ],
+            [
+                "Data Architect",
+                [
+                    "Manages data models bridging business and technology teams"
+                ]
+            ]
+        ]
+    },
+    "lineage": [
+        [
+            "LISTENER",
+            "EVENT",
+            "DESCRIPTION",
+            "TIMESTAMP"
+        ],
+        [
+            "data",
+            "init",
+            "data initialized",
+            "11/15/2022, 16:41:27"
+        ],
+        [
+            "concepts",
+            "init",
+            "concepts initialized",
+            "11/15/2022, 16:41:27"
+        ],
+        [
+            "meta",
+            "init",
+            "meta initialized",
+            "11/15/2022, 16:41:27"
+        ],
+        [
+            "governance",
+            "init",
+            "governance initialized",
+            "11/15/2022, 16:41:27"
         ]
     ],
     "custom": {}
