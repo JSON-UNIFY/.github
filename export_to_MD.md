@@ -1,4 +1,4 @@
-# JSON-Unify Markdown Export: SuperHuman Dataset
+# JSON-Unify Object As Markdown
 
 To create a new data product using the JSON-Unify data contract specification:
 - Copy the JSON code in from below in the cell named 'JSON'
@@ -14,21 +14,26 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
 
 <em>By creating clean & rich data with JSON-Unify, you are helping the next person who needs to use it by saving them time and increasing their understanding of the data.</em>
 
-## concepts
+## concepts - headers
 
 ```
-|    | COLUMN NAME        | TYPE   | DESCRIPTION                                                   |
-|---:|:-------------------|:-------|:--------------------------------------------------------------|
-|  0 | ID                 |        | The unique ID of the super human                              |
-|  1 | First name         |        | The first name of the super human                             |
-|  2 | Last name          |        | The last name of the super human                              |
-|  3 | Birth year         |        | the year someone was born                                     |
-|  4 | Height             |        | height in feet in inches                                      |
-|  5 | Birthplace         | str    | where the super human was born                                |
-|  6 | Identity is secret | bool   | the superhuman hasn't told anyone at all about their identity |
-|  7 | Can fly            |        | whether the superhuman can fly                                |
-|  8 | Alignment          | str    | the morals a super human aligns to                            |
-|  9 | Wears cape         |        | whether the super human wears a cape                          |
+|    | name               | type   | description                                        |
+|---:|:-------------------|:-------|:---------------------------------------------------|
+|  0 | ID                 | string | the unique id of the hero                          |
+|  1 | First name         | string | the first name of the superhuman                   |
+|  2 | Last name          | string | the last name of the superhuman                    |
+|  3 | Birth year         | string | The birth year of the superhuman                   |
+|  4 | Height             | string | The height of the superhuman                       |
+|  5 | Birthplace         | string | The birthplace of the superhuman                   |
+|  6 | Identity is secret | string | Whether the identity of the superhuman is a secret |
+|  7 | Can fly            | string | Whether the superhuman can fly                     |
+|  8 | Alignment          | string | The alignment of the superhuman                    |
+|  9 | Wears cape         | string | Whether the superhuman wears a cape                |
+```
+## concepts - values
+
+```
+
 ```
 ## data
 
@@ -86,10 +91,10 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
 ```
 |    | LISTENER   | EVENT   | DESCRIPTION            | TIMESTAMP            |
 |---:|:-----------|:--------|:-----------------------|:---------------------|
-|  1 | data       | init    | data initialized       | 11/15/2022, 16:53:25 |
-|  2 | concepts   | init    | concepts initialized   | 11/15/2022, 16:53:25 |
-|  3 | meta       | init    | meta initialized       | 11/15/2022, 16:53:25 |
-|  4 | governance | init    | governance initialized | 11/15/2022, 16:53:25 |
+|  1 | data       | init    | data initialized       | 11/17/2022, 14:00:33 |
+|  2 | concepts   | init    | concepts initialized   | 11/17/2022, 14:00:33 |
+|  3 | meta       | init    | meta initialized       | 11/17/2022, 14:00:33 |
+|  4 | governance | init    | governance initialized | 11/17/2022, 14:00:33 |
 ```
 ## meta
 
@@ -103,7 +108,7 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
 |  4 | authors     |                                                                   |
 |  5 | id          |                                                                   |
 |  6 | contact     |                                                                   |
-|  7 | name        | SuperHuman Dataset                                                |
+|  7 | name        |                                                                   |
 ```
 ## json
 
@@ -117,7 +122,7 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
         "authors": null,
         "id": null,
         "contact": null,
-        "name": "SuperHuman Dataset"
+        "name": null
     },
     "data": [
         [
@@ -326,41 +331,45 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
         ]
     ],
     "concepts": {
-        "columns": {
-            "ID": {
-                "description": "The unique ID of the super human"
-            },
-            "First name": {
-                "description": "The first name of the super human"
-            },
-            "Last name": {
-                "description": "The last name of the super human"
-            },
-            "Birth year": {
-                "description": "the year someone was born"
-            },
-            "Height": {
-                "description": "height in feet in inches"
-            },
-            "Birthplace": {
-                "type": "str",
-                "description": "where the super human was born"
-            },
-            "Identity is secret": {
-                "description": "the superhuman hasn't told anyone at all about their identity",
-                "type": "bool"
-            },
-            "Can fly": {
-                "description": "whether the superhuman can fly"
-            },
-            "Alignment": {
-                "type": "str",
-                "description": "the morals a super human aligns to"
-            },
-            "Wears cape": {
-                "description": "whether the super human wears a cape"
-            }
-        }
+        "headers": {
+            "name": [
+                "ID",
+                "First name",
+                "Last name",
+                "Birth year",
+                "Height",
+                "Birthplace",
+                "Identity is secret",
+                "Can fly",
+                "Alignment",
+                "Wears cape"
+            ],
+            "type": [
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "description": [
+                "the unique id of the hero",
+                "the first name of the superhuman",
+                "the last name of the superhuman",
+                "The birth year of the superhuman",
+                "The height of the superhuman",
+                "The birthplace of the superhuman",
+                "Whether the identity of the superhuman is a secret",
+                "Whether the superhuman can fly",
+                "The alignment of the superhuman",
+                "Whether the superhuman wears a cape"
+            ]
+        },
+        "values": {}
     },
     "compute": [
         [
@@ -502,25 +511,25 @@ The goal of JSON-Unify is to get **metadata** and **concepts**, included **with 
             "data",
             "init",
             "data initialized",
-            "11/15/2022, 16:53:25"
+            "11/17/2022, 14:00:33"
         ],
         [
             "concepts",
             "init",
             "concepts initialized",
-            "11/15/2022, 16:53:25"
+            "11/17/2022, 14:00:33"
         ],
         [
             "meta",
             "init",
             "meta initialized",
-            "11/15/2022, 16:53:25"
+            "11/17/2022, 14:00:33"
         ],
         [
             "governance",
             "init",
             "governance initialized",
-            "11/15/2022, 16:53:25"
+            "11/17/2022, 14:00:33"
         ]
     ],
     "custom": {}
