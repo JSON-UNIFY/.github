@@ -58,7 +58,7 @@ Depending on the type of data, one or more of these must be included:
 
 ```
 {
-  "@metadata": {
+  "@meta": {
     "@contract": {
       "uri": "https://github.com/Intelligence-AI/json-unify/blob/main/README.md#json-template",
       "id": "1"
