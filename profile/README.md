@@ -41,7 +41,7 @@ Depending on the type of data, one or more of these must be included:
 - @csv: the formats used by comma separated values (CSV) files
 - @rdf: the formats used by RDF
 
-## @semantics
+## @concepts
 - A semantic reference MUST be included for any table columns and/or JSON keys
 - A semantic reference MAY be included for any table row values and/or JSON values
 
