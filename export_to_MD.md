@@ -115,7 +115,7 @@ Any documentation of any SLA information.
 |--------|--------|---------------|----------------|
 ```
 
-## JSON-Unify Object (pretty print)
+## JSON-Unify Object (file)
 This is the JavaScript Object Notation representation of your PyUnify Object. You could save this to a file and import it, use it in Javascript, etc.
 
 
@@ -402,7 +402,7 @@ This is the JavaScript Object Notation representation of your PyUnify Object. Yo
     }
 }
 ```
-## JSON-Unify Object (as string)
+## JSON-Unify Object (string)
 Use this version to copy and paste into Jupyter Notebook to create a PyUnify Object
 
 
