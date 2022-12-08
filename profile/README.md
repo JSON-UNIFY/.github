@@ -9,8 +9,8 @@ A simple specification for open-source data contracts to unify agreement, unders
 - JSON-schema manages structure of data 
 - JSON-LD & JSON-RDF have a learning curve and can require significant changes in how teams operate, tools they need to use, and this can result in friction and non-action.
 - In years of user experience research with data science, software, and business intelligence teams, the lowest common denominator was that people didn't have metadata included in the data, and they didn't know what columns/keys meant, which can create a lot of confusion and waste a ton of time.
-- A minimal solution was necessary that anyone can use, requiring no infrastructure and almost no learning curve. Simply have three sections in your JSON payload: "@data", "@metadata", and "@semantics", so that metadata and semantic definitions are included in the payload itself. This prevents individuals from having to hunt things down.
-- A fourth section "@compute" is an optional section, enabling evaluations, algorithms, and transformation to be included in payloads. 
+- A minimal solution was necessary that anyone can use, requiring no infrastructure and almost no learning curve. Simply have three sections in your JSON payload: "@data", "@meta", and "@concepts", so that metadata and semantic definitions are included in the payload itself. This prevents individuals from having to hunt things down.
+- Adittional sections, like "@lineage", "@governance", "@features" are optional sections.
 
 ## DESIGNED FOR SIMPLICITY, CONFIGURABILITY, AND SCALABILITY:
 By making the entire data contract a JSON specification, it has maximum flexibility for customization, including industry-specific templates and standards.
