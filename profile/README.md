@@ -1,4 +1,4 @@
-# JSON-Unify - An Open-Source Data Contract Specification 
+# JSON-Unify is an Open-Source Data Contract Specification 
 A simple specification for open-source data contracts to unify agreement, understanding, and expectations
 
 ### The only requirement for a JSON-Unify object is that "meta", "concepts", and "data" are all in one object. If the data is large, a link to the data under meta.source (JS) or "meta"["source"] (Python) is allowed.
