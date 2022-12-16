@@ -17,7 +17,7 @@ let json = {
       },
       values: {
         entity:[],
-        "header name":[],
+        header:[],
         type:[],
         description:[]
       },
