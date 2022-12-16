@@ -58,3 +58,23 @@ let json = {
   };
 
 ```
+
+# unifyQl: a query language for JSON-Unify objects
+
+### INSERT
+
+```
+{ "headers": { "insert": [ {"name":"Buy Signal", "type":"boolean", "description":"whether this price is predicted to be a good time to buy"} ] } }
+```
+
+### UPDATE
+
+```
+{ "headers": { "update": [ { "row":6, "col": "description", "set": "This is an updated row using unifyQL" } ] } }
+```
+
+### DELETE
+
+```
+{ "headers": { "delete": { "rows": [2, 3, 4] } } }
+```
