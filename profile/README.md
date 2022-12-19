@@ -59,7 +59,7 @@ let json = {
 
 ```
 
-# unifyQl: a query language for JSON-Unify objects
+# unifyQL: a query language for JSON-Unify objects
 
 ### INSERT
 
