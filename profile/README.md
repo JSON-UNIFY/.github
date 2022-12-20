@@ -1,4 +1,4 @@
-# JSON-Unify is an Open-Source Data Product Specification 
+# JSON-Unify is an Open-Source Data Contract Specification 
 A simple specification for open-source data contracts to unify agreement, understanding, and expectations
 
 ### The purpose of JSON-Unify is to unite the data, concept/semantic information, metadata, lineage, governance, etc. into one singular object, thereby eliminating common sources of ambiguity and time-wasted in wanting to understand and use data.
