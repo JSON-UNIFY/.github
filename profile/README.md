@@ -1,9 +1,12 @@
 # JSON-Unify is an Open-Source Data Contract Specification 
 The bare minimal specification for open-source data contracts to unify agreement, understanding, and expectations
 
-### The purpose of JSON-Unify is to unite the data, concept/semantic information, metadata, lineage, governance, etc. into one singular object, thereby eliminating common sources of ambiguity and time-wasted in wanting to understand and use data.
+The purpose of JSON-Unify is to unite the data, concept/semantic information, metadata, lineage, governance, etc. into one singular object, thereby eliminating common sources of ambiguity and time-wasted in wanting to understand and use data.
 
 # A JSON-Unify object requires that "meta" (search for data), "concepts" (search in data), and "data" (or data reference) are all in one object. 
+
+A JSON-Unify vocabulary is being developed as a proposal for JSON-Unify to formally join the official JSON-Schema specification
+https://github.com/JSON-UNIFY/vocab-dataset/blob/main/spec/v1.markdown
 
 ### Example JSON-Unify structure:
 
@@ -78,3 +81,7 @@ let json = {
 ```
 { "headers": { "delete": { "rows": [2, 3, 4] } } }
 ```
+
+
+
+
