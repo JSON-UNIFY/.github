@@ -3,11 +3,9 @@ The bare minimal specification for open-source data contracts to unify agreement
 
 ### The purpose of JSON-Unify is to unite the data, concept/semantic information, metadata, lineage, governance, etc. into one singular object, thereby eliminating common sources of ambiguity and time-wasted in wanting to understand and use data.
 
-# The only requirement for a JSON-Unify object is that "meta", "concepts", and "data" are all in one object. 
+# A JSON-Unify object requires that "meta" (search for data), "concepts" (search in data), and "data" (or data reference) are all in one object. 
 
-### If the data is large, a link to the data under meta.source (JS) or "meta"["source"] (Python) is allowed.
-
-### Recommended JSON-Unify structure:
+### Example JSON-Unify structure:
 
 ```
 let json = {
