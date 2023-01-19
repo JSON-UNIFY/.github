@@ -67,7 +67,9 @@ let json = {
 
 ```
 
-# unifyQL: a query language for JSON-Unify objects
+# UnifyQL: a query language for JSON-Unify objects
+
+Organizations can create custom JSON-Schema vocabulary specifications for queries so that they can use JSON to standardize queries across various databases, query languages, and cloud platforms. Additional metadata can be added to UnifyQL, such as the role, name, application, business purpose, etc., of the query, so that high quality data about data source, purpose, query, query results, destination, and documentation can be unified into a single data object. 
 
 ### INSERT
 
